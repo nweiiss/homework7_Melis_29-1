@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: #222031;
+}
+.container {
+  margin-top: 50px;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background: #222031;
+  text-align: center;
+  color: #ffffff;
+  padding: 30px;
+}
+
+input {
+  background: #222031;
+	border-radius: 40px;
+	border: 1px solid lightblue;
+	color: white;
+	font-size: 16px;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+button {
+  width: 100px;
+  height: 25px;
+  background: rgb(77, 83, 131);
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.nan {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+li {
+  list-style: none;
+}
+.delete {
+  width: 22px;
+  height: 22px;
+  background: none;
+  text-align: center;
+}
